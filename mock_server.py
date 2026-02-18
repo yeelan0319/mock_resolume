@@ -9,7 +9,7 @@ import select
 # --- CONFIGURATION ---
 DEFAULT_FOLDER = "test_scenes"
 ARTNET_PORT = 6454
-ARTNET_HEADER = b'Art-Net\x00\x00\x50\x00\x0e\x00\x00\x00\x00\x00\x00'
+ARTNET_HEADER = b'Art-Net\x00\x00\x50\x00\x0e\x00\x00\x00\x00\x02\x00'
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
